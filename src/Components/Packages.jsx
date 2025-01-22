@@ -11,7 +11,7 @@ function Packages({ packages }) {
     <Container>
       <Row className="gy-4"> 
         {packages.map((pkg) => (
-          <Col key={pkg.id} xs={6} sm={4} md={3} lg={3}> 
+          <Col key={pkg.id} xs={12} sm={6} md={4} lg={3}> 
             <Card className="bg-black h-50"> 
               <Card.Img variant="top" src={pkg.image} alt={pkg.title} />
               <Card.Body>
