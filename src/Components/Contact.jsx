@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Container, Form, Button } from "react-bootstrap";
+import './Contact.css' 
 function Contact() {
   return (
     <div className=" vh-75vh">

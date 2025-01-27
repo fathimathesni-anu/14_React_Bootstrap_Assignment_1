@@ -11,11 +11,11 @@ function Packages({ packages }) {
     <Container>
       <Row className="gy-4"> 
         {packages.map((pkg) => (
-          <Col key={pkg.id} xs={12} sm={6} md={4} lg={3}> 
+          <Col key={pkg.id} xs={12} sm={6} md={6} lg={4}> 
             <Card className="bg-black h-50"> 
               <Card.Img variant="top" src={pkg.image} alt={pkg.title} />
               <Card.Body>
-                <Card.Title className="text-white">{pkg.title}</Card.Title>
+                <Card.Title className="text-white" id="title">{pkg.title}</Card.Title>
                 <Button variant="success" onClick={() => handleShow(pkg.id)}>
                   Enquiry
                 </Button>

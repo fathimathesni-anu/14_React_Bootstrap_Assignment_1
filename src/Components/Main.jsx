@@ -172,7 +172,7 @@ function Main() {
         fluid
         className="mb-4 p-4 bg-success text-center text-white"
       >
-        <h2 className="heading" id="heading">
+        <h2>
           Kerala Tour Packages
         </h2>
         <p className="price">
